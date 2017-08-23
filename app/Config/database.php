@@ -67,12 +67,12 @@
 class DATABASE_CONFIG {
         public $default = array(
             'datasource' => 'Database/Mysql',
-            'persistent' => false,
-            'host'       => '',
-            'port'       => '',
-            'login'      => '',
-            'password'   => '',
-            'database'   => '',
+            'persistent' => true,
+            'host'       => 'mysql.seatplanner.svc',
+            'port'       => '3306',
+            'login'      => 'groza_danut',
+            'password'   => '07101995',
+            'database'   => 'seat_planner',
             'prefix'     => '',
             'encoding' => 'utf8',
         );
